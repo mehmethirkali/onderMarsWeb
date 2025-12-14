@@ -101,6 +101,102 @@
         }
     </style>
 
+    <!-- Calendar Styles -->
+    <style>
+        .calendar-container {
+            padding: 4rem 0;
+        }
+        .month-card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            margin-bottom: 3rem;
+            padding: 2rem;
+            overflow: hidden;
+        }
+        .month-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #333;
+        }
+        .calendar-table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .calendar-grid {
+            width: 100%;
+            min-width: 700px;
+            border-collapse: collapse;
+        }
+        .calendar-grid th {
+            text-align: center;
+            padding: 1rem 0.5rem;
+            font-weight: 600;
+            color: #888;
+            border-bottom: 2px solid #eee;
+        }
+        .calendar-grid td {
+            border: 1px solid #f0f0f0;
+            vertical-align: top;
+            height: 120px;
+            padding: 8px;
+            position: relative;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .calendar-grid td:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+        .date-number {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #555;
+            text-align: right;
+            display: block;
+        }
+        .not-current-month .date-number {
+            color: #ccc;
+        }
+        .event-desc {
+            font-size: 0.8rem;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 5px;
+            color: #fff;
+            display: block;
+            line-height: 1.2;
+        }
+        
+        /* Event Color Codes */
+        .event-karadelik { background-color: rgba(0, 123, 255, 0.8); }
+        .event-kulucka { background-color: rgba(40, 167, 69, 0.8); }
+        .event-supernova { background-color: rgba(108, 99, 255, 0.8); }
+        .event-tatil { background-color: rgba(255, 193, 7, 0.8); color: #333; }
+        .event-karma { background-color: rgba(23, 162, 184, 0.8); }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .calendar-container {
+                padding: 2rem 0;
+            }
+            .month-card {
+                padding: 1.5rem 1rem;
+            }
+            .month-header {
+                font-size: 2rem;
+            }
+            .calendar-grid td {
+                height: auto;
+                min-height: 110px;
+            }
+            .event-desc {
+                font-size: 0.75rem;
+            }
+        }
+    </style>
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="MARS Projesi | Eğitim İçerikleri">
@@ -149,9 +245,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#team">Liderler</a>
                     </li>
-                    <!-- li class="nav-item">
-                        <a class="nav-link" href="takvim.html">Takvim</a>
-                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#calendar">Takvim</a>
+                    </li>
                     <!-- li class="nav-item">
                         <a class="nav-link" href="archive.html">Arşiv</a>
                     </li> -->
@@ -694,6 +790,131 @@
     </section>
 	<!-- End of Blog Section -->
 
+    <!-- Calendar Section -->
+    <section id="calendar" class="calendar-container">
+        <div class="container">
+            <h6 class="section-subtitle text-center">MARS Projesi</h6>
+            <h5 class="section-title text-center mb-6">Müfredat Takvimi</h5>
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="month-card">
+                        <h3 class="month-header">Kasım 2025</h3>
+                        <div class="calendar-table-wrapper">
+                            <table class="calendar-grid">
+                                <thead><tr><th>Pzt</th><th>Sal</th><th>Çarş</th><th>Perş</th><th>Cum</th><th>Cts</th><th>Pzr</th></tr></thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="not-current-month"><span class="date-number">27</span><span class=""></span></td>
+                                        <td class="not-current-month"><span class="date-number">28</span><span class=""></span></td>
+                                        <td class="not-current-month"><span class="date-number">29</span><span class=""></span></td>
+                                        <td class="not-current-month"><span class="date-number">30</span><span class=""></span></td>
+                                        <td class="not-current-month"><span class="date-number">31</span><span class=""></span></td>
+                                        <td><span class="date-number">1</span><span class=""></span></td>
+                                        <td><span class="date-number">2</span><span class=""></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">3</span><span class=""></span></td>
+                                        <td><span class="date-number">4</span><span class=""></span></td>
+                                        <td><span class="date-number">5</span><span class=""></span></td>
+                                        <td><span class="date-number">6</span><span class=""></span></td>
+                                        <td><span class="date-number">7</span><span class=""></span></td>
+                                        <td><span class="date-number">8</span><span class=""></span></td>
+                                        <td><span class="date-number">9</span><span class=""></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">10</span><span class=""></span></td>
+                                        <td><span class="date-number">11</span><span class=""></span></td>
+                                        <td><span class="date-number">12</span><span class=""></span></td>
+                                        <td><span class="date-number">13</span><span class=""></span></td>
+                                        <td><span class="date-number">14</span><span class=""></span></td>
+                                        <td><span class="date-number">15</span><span class=""></span></td>
+                                        <td><span class="date-number">16</span><span class=""></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">17</span><span class=""></span></td>
+                                        <td><span class="date-number">18</span><span class=""></span></td>
+                                        <td><span class="date-number">19</span><span class=""></span></td>
+                                        <td><span class="date-number">20</span><span class=""></span></td>
+                                        <td><span class="date-number">21</span><span class=""></span></td>
+                                        <td><span class="date-number">22</span><span class=""></span></td>
+                                        <td><span class="date-number">23</span><span class=""></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">24</span><span class="event-desc event-tatil">Açılış & Yıldızlararası buluşmalar</span></td>
+                                        <td><span class="date-number">25</span><span class="event-desc event-tatil">Açılış & Yıldızlararası buluşmalar</span></td>
+                                        <td><span class="date-number">26</span><span class="event-desc event-tatil">Açılış & Yıldızlararası buluşmalar</span></td>
+                                        <td><span class="date-number">27</span><span class="event-desc event-tatil">Açılış & Yıldızlararası buluşmalar</span></td>
+                                        <td><span class="date-number">28</span><span class="event-desc event-tatil">Açılış & Yıldızlararası buluşmalar</span></td>
+                                        <td><span class="date-number">29</span><span class="event-desc event-tatil">Açılış & Yıldızlararası buluşmalar</span></td>
+                                        <td><span class="date-number">30</span><span class="event-desc event-tatil">Açılış & Yıldızlararası buluşmalar</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="month-card">
+                        <h3 class="month-header">Aralık 2025</h3>
+                        <div class="calendar-table-wrapper">
+                            <table class="calendar-grid">
+                                <thead><tr><th>Pzt</th><th>Sal</th><th>Çarş</th><th>Perş</th><th>Cum</th><th>Cts</th><th>Pzr</th></tr></thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="date-number">1</span><span class="event-desc event-karadelik">Karadelik Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">2</span><span class="event-desc event-karadelik">Karadelik Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">3</span><span class="event-desc event-karadelik">Karadelik Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">4</span><span class="event-desc event-karadelik">Karadelik Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">5</span><span class="event-desc event-karadelik">Karadelik Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">6</span><span class="event-desc event-karadelik">Karadelik Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">7</span><span class="event-desc event-karadelik">Karadelik Hf. (Ekonomi)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">8</span><span class="event-desc event-kulucka">Kuluçka Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">9</span><span class="event-desc event-kulucka">Kuluçka Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">10</span><span class="event-desc event-kulucka">Kuluçka Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">11</span><span class="event-desc event-kulucka">Kuluçka Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">12</span><span class="event-desc event-kulucka">Kuluçka Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">13</span><span class="event-desc event-kulucka">Kuluçka Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">14</span><span class="event-desc event-kulucka">Kuluçka Hf. (Ekonomi)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">15</span><span class="event-desc event-supernova">Süpernova Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">16</span><span class="event-desc event-supernova">Süpernova Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">17</span><span class="event-desc event-supernova">Süpernova Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">18</span><span class="event-desc event-supernova">Süpernova Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">19</span><span class="event-desc event-supernova">Süpernova Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">20</span><span class="event-desc event-supernova">Süpernova Hf. (Ekonomi)</span></td>
+                                        <td><span class="date-number">21</span><span class="event-desc event-supernova">Süpernova Hf. (Ekonomi)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">22</span><span class="event-desc event-karadelik">Karadelik Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">23</span><span class="event-desc event-karadelik">Karadelik Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">24</span><span class="event-desc event-karadelik">Karadelik Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">25</span><span class="event-desc event-karadelik">Karadelik Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">26</span><span class="event-desc event-karadelik">Karadelik Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">27</span><span class="event-desc event-karadelik">Karadelik Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">28</span><span class="event-desc event-karadelik">Karadelik Hf. (Hukuk)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="date-number">29</span><span class="event-desc event-kulucka">Kuluçka Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">30</span><span class="event-desc event-kulucka">Kuluçka Hf. (Hukuk)</span></td>
+                                        <td><span class="date-number">31</span><span class="event-desc event-kulucka">Kuluçka Hf. (Hukuk)</span></td>
+                                        <td class="not-current-month"><span class="date-number">1</span><span class="event-desc event-kulucka">Kuluçka Hf. (Hukuk)</span></td>
+                                        <td class="not-current-month"><span class="date-number">2</span><span class="event-desc event-kulucka">Kuluçka Hf. (Hukuk)</span></td>
+                                        <td class="not-current-month"><span class="date-number">3</span><span class="event-desc event-kulucka">Kuluçka Hf. (Hukuk)</span></td>
+                                        <td class="not-current-month"><span class="date-number">4</span><span class="event-desc event-kulucka">Kuluçka Hf. (Hukuk)</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Calendar Section -->
 
     <section class="has-bg-img py-0">
         <div class="container">

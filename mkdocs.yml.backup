@@ -1,0 +1,131 @@
+site_name: MARS Projesi | Eğitim İçerikleri
+site_url: http://mars.onder.org.tr
+base-url: /
+
+nav:
+  - Anasayfa: index.md
+  - Eğitim Hakkında: about.md
+  - Takvim: takvim.html
+  
+  # Yeni Dönem
+  - 2025-2026 Dönemi:
+      - Ekonomi ve Ticaret: 2025-2026/econ-ticaret.md
+      # Yeni eklenecekler buraya...
+
+  # Eski Dönem
+  - 2024-2025 Dönemi:
+      - Uluslararası Hukuk: 2024-2025/int-hukuk.md
+      - Medya ve İletişim: 2024-2025/medya-iletisim.md
+      - Ekonomi ve Ticaret: 2024-2025/econ-ticaret.md
+      - Sanat ve Zanaat: 2024-2025/sanat-zanaat.md
+      - Edebiyat: 2024-2025/edebiyat.md
+      - Sürdürülebilirlik: 2024-2025/surdurulebilirlik.md
+      - Sanayi ve Teknoloji: 2024-2025/sanayi-teknoloji.md
+      #- Psikoloji ve Sosyoloji: psy-soc.md
+      #- Tarih: hist.md
+
+theme:
+  logo: assets/logo-beyaz-01.png
+  favicon: assets/tarayici-logo-01.png
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: custom
+      accent: custom
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: custom
+      accent: custom
+  language: tr
+  name: material
+  custom_dir: docs/custom
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    theme:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+use_directory_urls: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+plugins:
+  - mkdocs-pdf
+  - social:
+      cards_layout_options:
+        background_color: "#dd3900"
+        color: "#dd3900"
+  - search
+  - open-in-new-tab
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/onderiho
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/marsgirisim/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/onderimamhatip
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/ONDERihl
+
+extra_css:
+  - stylesheets/extra.css
+
+
+copyright: |
+  &copy; 2024 <a href="https://onder.org.tr/projeler/genclik-projeleri/mars-girisim"  target="_blank" rel="noopener">ÖNDER</a>
