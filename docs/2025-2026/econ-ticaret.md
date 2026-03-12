@@ -1,78 +1,116 @@
 ---
-title: Ekonomi ve Ticaret
+title: Sanat Mı, Zanaat Mı?
 description: başlık 1
 ---
 
-# **Ekonomi ve Ticaret**
+# **Sanat Mı, Zanaat Mı?**
 
 _Bu başlık İstanbul Çalıştayına dahildir_
 
 ## Karadelik Haftası
 
-**Başlık:** Kapitalizmin Kısa Tarihi
+**Başlık:** Sanat Mı, Zanaat Mı?
 
-**İçerik Türü:** Video
+**İçerik Türü:** Bilgilendirici Video (Youtube Videosu)
 
 !!! info ""
-    Kapitalizmin tarihsel gelişimini, temel özelliklerini ve eleştirilerini genel hatlarıyla kavrama. Videonun sonunda yer alan “Başka bir sistem mümkün mü?” sorusu, İslami finans sistemine geçiş için düşünsel bir köprü oluşturur.
+    Sanat ve zanaat kavramlarının ayrımının tarihsel geçmişinin öğrenilmesi
 
-<iframe width="1078" height="606" src="https://www.youtube.com/embed/xY36Cd8jrks" title="Kapitalizmin Kısa Tarihi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1078" height="606" src="https://www.youtube.com/embed/BvB4oKKB8jA" title="Sanat Mı, Zanaat Mı?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-**Başlık:** Economic Systems Explained: Capitalism, Socialism & Mixed Economies
+**Başlık:** How Art Gives Shape To Cultural Change?
 
-**İçerik Türü:** Video
+**İçerik Türü:** TED Konuşması
 
 !!! info ""
-    Farklı ekonomik sistemlerin (kapitalizm, sosyalizm, karma sistem) nasıl işlediğini, her birinin avantaj ve dezavantajlarını öğrenmek.
+    Öğrencilerin sanatın toplumu dönüştürme gücünü fark etmeleri
 
-<iframe width="1078" height="606" src="https://www.youtube.com/embed/5DJ7-d8zF_8" title="Economic Systems Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1078" height="606" src="https://www.youtube.com/embed/thelma_golden_how_art_gives_shape_to_cultural_change" title="How Art Gives Shape To Cultural Change?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-**Başlık:** Is Capitalism Actually Broken?
+**Başlık:** Sanat Terimleri
 
-**İçerik Türü:** Eğitici Video
+**İçerik Türü:** Bilgilendirici Video (Youtube Videosu)
 
 !!! info ""
-    Kapitalizmin hangi şartlarda işlevini yitirdiğini veya nasıl sürdürülebilir hale getirilebileceğini anlamak.
+    Öğrencilerin en bilinen sanat akımlarına genel anlamıyla hakim olması
 
-<iframe width="1078" height="606" src="https://www.youtube.com/embed/wcR815SfWOU" title="Is Capitalism Actually Broken?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1078" height="606" src="https://www.youtube.com/embed/videoseries?list=PL9UpXULF59HgYM_xIyiLahOIK3bCrRlXK" title="Sanat Terimleri" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-**Başlık:** What Is Inflation? – The School of Life
+**Başlık:** Tezhip Sanatı ve İncelikleri
 
-**İçerik Türü:** Video
+**İçerik Türü:** Bilgilendirici Video (Youtube Videosu)
 
 !!! info ""
-    Enflasyonun sadece ekonomik değil, aynı zamanda toplumsal ve psikolojik bir olgu olduğunu fark etmek. 
+    Öğrencilerin tezhipin ne olduğunu ve kabaca geçmişini öğrenmesi
+
+<iframe width="1078" height="606" src="https://www.youtube.com/embed/iW4v3rwBCa0" title="Tezhip Sanatı ve İncelikleri" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+**Başlık:** Hüner - Tezhip
+
+**İçerik Türü:** Bilgilendirici Video (Youtube Videosu)
+
+!!! info ""
+    Öğrencilerin tezhip sanatının aşamalarına hakim olması
+
+<iframe width="1078" height="606" src="https://www.youtube.com/embed/a4uTc5S50EM?start=145" title="Hüner - Tezhip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+**Başlık:** Küçük Şeylerin Hikayesi - Ahşap Oymacılığı
+
+**İçerik Türü:** Bilgilendirici Video (Youtube Videosu)
+
+!!! info ""
+    Öğrencilerin ahşap oymacılığının ne olduğunu ve kabaca geçmişini öğrenmesi
+
+<iframe width="1078" height="606" src="https://www.youtube.com/embed/4m8d5YXvyik" title="Küçük Şeylerin Hikayesi - Ahşap Oymacılığı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+**Başlık:** Hüner - Ahşap Oymacılığı
+
+**İçerik Türü:** Bilgilendirici Video (Youtube Videosu)
+
+!!! info ""
+    Öğrencilerin ahşap oymacılığının aşamalarına hakim olması
+
+<iframe width="1078" height="606" src="https://www.youtube.com/embed/3wH0mYBE4LE" title="Hüner - Ahşap Oymacılığı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+**Başlık:** Tezhip ve Tezhipte Kullanılan Motif ve Teknikler
+
+**İçerik Türü:** Makale
+
+!!! info ""
+    Öğrencilerin tezhip motiflerine hakim olması
+
+??? quote "Erişim"
     
-<iframe width="1078" height="606" src="https://www.youtube.com/embed/UMAELCrJxt0" title="What Is Inflation?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [Makalenin tamamına bu linkten erişilebilir](https://dergipark.org.tr/tr/pub/bitlissos/article/636301)
 
 ---
 
-**Başlık:** How Does the Stock Market Work?
+**Başlık:** Kontrplakla Ahşap Oyma Sanatı:Modern Uygulamalar
 
-**İçerik Türü:** Video
+**İçerik Türü:** Bilgilendirici Yazı (Blog Yazısı)
 
 !!! info ""
-    Borsanın temel işleyişini, hisse senedi sistemini ve ekonomideki rolünü anlamak.
+    Öğrencilerin ahşap oymacılığının bazı teknik bilgilerini, tarihçesini ve gelişimini öğrenmesi
 
-<iframe width="1078" height="606" src="https://www.youtube.com/embed/p7HKvqRI_Bo" title="How Does the Stock Market Work?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+??? quote "Erişim"
+    
+    [Blog yazısının tamamına bu linkten erişilebilir](https://egekontrplak.com/kontrplakla-ahsap-oyma-sanati-modern-uygulamalar/)
 
 ---
-
-**Başlık:** How Islamic Finance Actually Works
-
-**İçerik Türü:** Video
-
-!!! info ""
-    Faizsiz finans sisteminin temel prensiplerini, risk paylaşımı, reel ekonomi ve etik temellerini anlamak.
-
-<iframe width="1078" height="606" src="https://www.youtube.com/embed/r7GKIFHTBTA" title="How Islamic Finance Actually Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ---
 
 **Başlık:** Hz. Peygamber’in Ticaret Ahlakının Esasları
