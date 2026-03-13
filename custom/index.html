@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Google tag (gtag.js) / Data toplama başlangıcı -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J2J2CFL5C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    gtag('config', 'G-3J2J2CFL5C');
+    </script>
+	 <!-- Data toplama bitişi -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="insan odaklı sosyal girişimcilik ve kuluçka merkezi">
+    <meta name="author" content="mozgor19">
+    <title>MARS Projesi | Önder Genç</title>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Studio main styles -->
+	<link rel="stylesheet" href="assets/css/mars.css">
+
+    <!-- Favicon ayarı -->
+    <link rel="icon" href="assets/imgs/favicon.png" type="image/png">
+
+    <!-- Popup başvuru ekranı-->
+	<!-- Sayfanon en altında bunu aktif etmek için kod var. Yıl başlarında en alttaki script'i aktif ederek başvuru popup devreye alınabilir -->
+    <style>
+        .popup-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); 
+            z-index: 1050;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .popup-content {
+            position: relative;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            padding: 0;
+            text-align: center;
+
+            /* Masaüstü için maksimum genişlik */
+            max-width: 600px; 
+            width: 100%; 
+
+            /* Maksimum yükseklik ayarı */
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        .popup-content img {
+            max-width: 100%;
+            height: auto;
+            display: block; 
+            border-radius: 8px;
+        }
+        .popup-close {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            color: #333; 
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px; 
+            font-weight: bold;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+            z-index: 1060;
+        }
+        .popup-close:hover {
+            background-color: #f1f1f1;
+            color: #000;
+        }
+
+        /* Küçük ekranlar (mobil) için responsive ayarlar */
+        @media (max-width: 768px) {
+            .popup-content {
+                max-width: 95%; 
+            }
+            .popup-close {
+                top: 5px;
+                right: 5px;
+                font-size: 18px;
+                width: 28px;
+                height: 28px;
+                line-height: 28px;
+            }
+        }
+    </style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Hakkında</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Konu Başlıkları</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Liderler</a>
+                    </li>
+                    <!-- li class="nav-item">
+                        <a class="nav-link" href="takvim.html">Takvim</a>
+                    </li> -->
+                    <!-- li class="nav-item">
+                        <a class="nav-link" href="archive.html">Arşiv</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://onder.org.tr/komisyonlar/onder-genc">Önder Genç</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-edu btn btn-primary btn-sm ml-lg-3" href="/about.html">Eğitim İçerikleri</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Page Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h6 class="subtitle"><em>"insan odaklı sosyal girişimcilik ve kuluçka merkezi"</em></h6>
+            <h1 class="main-title">MARS Projesi</h1>
+            <div class="buttons text-center">
+                <a href="#about" class="btn btn-primary rounded w-lg btn-lg my-1">Hakkında</a>
+                <a class="btn btn-outline-light rounded w-lg btn-lg my-1" href="/about.html">Eğitim İçerikleri</a>
+            </div>              
+        </div>      
+    </header>
+    <!-- End Of Page Header -->
+
+    <!-- Box -->
+    <div class="box text-center">
+        <div class="box-item">
+            <i class="ti-agenda"></i>
+            <h6 class="box-title">Karadelik</h6>
+            <p>Öğrencilerin derinlemesine araştırma, tahlil ve yorumlama, ekip içi iletişim ve iş birliği becerilerinin geliştirilmesini hedefleyen bir süreçtir.</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-video-camera"></i>
+            <h6 class="box-title">Kuluçka</h6>
+            <p>Alanında uzman kişilerle MARS öğrencileri için özel düzenlenecek çevrim içi buluşmalar sayesinde farklı alanları keşfetmeyi, anlamayı ve ilham almayı hedefleyen bir süreçtir.</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-palette"></i>
+            <h6 class="box-title">Süpernova</h6>
+            <p>Öğrencilerin keyifli vakit geçirirken yeteneklerini keşfedecekleri sanatsal, sportif ve kültürel faaliyetleri kapsayan bir süreçtir.</p>
+        </div>
+    </div>
+    <!-- End of Box -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-lg-4">
+                    <img src="assets/imgs/vision.jpeg" alt="resim1" class="w-100 img-thumbnail mb-3">
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h6 class="section-title mb-3">Vizyon</h6>
+                    <p> Öğrencilerin farklı alanları deneyimleyerek kendilerini keşfetmelerini ve geliştirmelerini sağlayacak, imam hatiplilik şuuru çatısı altında toplanacak, ekip çalışmaları ile sorumluluk alacakları bir ortamın tahsis edilmesi hedeflenmektedir.</p>
+                    <br><br>
+                    <br><br>
+                    <h6 class="section-title mb-3">Misyon</h6>
+                    <p> Öğrenncilerin katıldıkları etkinlikler ve aldıkları eğitimler doğrultusunda sosyal girişim becerileri gelişmiş, çevreye ve insana merhamet duygusuyla yaklaşan, kendi kabiliyetinin farkında olan bireyler olmasına katkı sunarak küresel problemlere yenilikçi ve katma değer odaklı bir bakış açısıyla yaklaşmalarını sağlamaktır.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- About Section with bg -->
+    <section class="has-bg-img py-md">
+        <div class="container text-center">
+            <h6 class="section-subtitle">Zümer Suresi 9. Ayet</h6>
+            <h6 class="section-title mb-6">De ki: “Hiç bilenlerle bilmeyenler bir olur mu?”</h6>
+            <div class="widget mb-4">
+                <div class="widget-item">
+                    <i class="ti-notepad"></i>
+                    <h6>İstanbul Çalıştayı</h6>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-map-alt"></i>
+                    <h6>Yıldızlararası Buluşmalar</h6>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-bar-chart"></i>
+                    <h6>Değerlendirme</h6>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-world"></i>
+                    <h6>Yurtdışı Gezisi</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Of About Sectoin -->
+
+    <!-- Service Section -->
+    <section id="service">
+        <div class="container">
+            <h6 class="section-subtitle text-center">MARS Projesinde</h6>
+            <h5 class="section-title text-center mb-6">Neler Var?</h5> 
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-microphone text-primary"></i></h2>
+                            <h6 class="card-title">Medya ve İletişim</h6>
+                            <p>Bu başlık altında yeni medyanın dinamikleri inceleniyor. Bu içerikler, medya araçlarının evrimi ve dijital sansür uygulamalarının toplumsal etkilerini derinlemesine anlamayı hedefliyor. Yeni medya düzeninde sansür ve iletişim stratejilerinin rolünün keşfedilmesi hedefleniyor.            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-crown text-primary"></i></h2>
+                            <h6 class="card-title">Uluslararası Hukuk</h6>
+                            <p>Bu başlık, hukukun nasıl işlediğini ve zihnimizde yaptığımız yargılamalar ile adil bir yargılama arasındaki farkları incelemektedir. Filistin meselesi bağlamında mevcut uluslararası düzenin işlevsizliği vurgulanarak, uluslararası hukuk düzeninin gerçekleri ele alınmaktadır.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-rocket text-primary"></i></h2>
+                            <h6 class="card-title">Sanayi ve Teknoloji</h6>
+                            <p>Bu başlık, geçmişten günümüze sanayi ve üretim süreçlerini değerlendirmektedir. Sanayi devriminden modern teknolojiye kadar üretim yöntemlerindeki değişimlerin incelendiği bu başlık, ekonomik ve toplumsal etkileriyle birlikte sanayi ve üretimin gelişimini ele almaktadır.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-user text-primary"></i></h2>
+                            <h6 class="card-title">Psikoloji ve Sosyoloji</h6>
+                            <p>Bu başlık, İsrail'in işgalleri ve katliamlarının arkasındaki psikolojik ve dini arka planı incelemektedir. Tarihsel, kültürel ve inanç temelli motivasyonlar ışığında İsrail'in politikalarının arka planı araştırılarak, bu eylemlerin psikolojik ve sosyolojik boyutları ele alınmaktadır.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-wallet text-primary"></i></h2>
+                            <h6 class="card-title">Ekonomi ve Ticaret</h6>
+                            <p>Bu başlıkta modern ekonominin temel kavramlarını ve sistemlerini ele alınıyor. Bu içerikler, kapitalizmin tarihsel gelişiminden günümüzdeki işleyişine kadar geniş bir yelpazede bilgi sunuyor. Ekonomik sistemlerin zaman içindeki dönüşümü ve kapitalizmin bugünkü rolününün anlaşılması hedefleniyor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-reload text-primary"></i></h2>
+                            <h6 class="card-title">Sürdürülebilirlik</h6>
+                            <p>Bu başlık altında, iş dünyasından tüketim alışkanlıklarına kadar sürdürülebilirliğin hayatın her alanındaki rolü ele alınıyor. Bu etkinlikler sayesinde, sürdürülebilirlik kavramının derinlemesine anlaşılması ve günlük hayatta nasıl uygulanabileceğine dair farkındalık kazanılması hedefleniyor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-paint-roller text-primary"></i></h2>
+                            <h6 class="card-title">Sanat ve Zanaat</h6>
+                            <p>Bu başlık altında, sanat ve zanaat ilişkisi zanaatın gastronomi üzerinden detaylı bir şekilde ele alınmaktadır. Gastronomideki ustalık ve el becerisi vurgulanırken, sanat ise daha geniş bir kavram olarak yaratıcılık, estetik ve duygusal ifade boyutlarıyla derinlemesine kapsamlı bir şekilde incelenmektedir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-book text-primary"></i></h2>
+                            <h6 class="card-title">Tarih ve Edebiyat</h6>
+                            <p>Bu başlık altında, tarih ve kendi şehrinin kültürel arka planına sahip olmanın önemi derinlemesine incelenmektedir. Şiir, hikaye gibi edebi unsurlar aracılığıyla bu kültürel zenginliğin nasıl üretim sağladığı, ifade edildiği ve toplumsal belleğe nasıl katkı sunduğu vurgulanmaktadır.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+    </section>
+    <!-- End of Service Section -->
+	
+    <!-- Team Section -->
+	
+	<section id="team" style="position: relative;">
+        <div class="container">
+            
+            <div class="position-relative mb-5">
+                <h6 class="section-subtitle text-center">MARS Projesi</h6>
+                <h6 class="section-title text-center">Öğrenci Liderleri</h6>
+                
+                <div class="year-selector-container">
+                    <select id="yearSelect" class="form-control" onchange="toggleTeamYear()">
+                        <option value="2025" selected>2025-2026 Dönemi</option>
+                        <option value="2024">2024-2025 Dönemi</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="team-2025" class="row">
+                
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">Miraç Talha Kum</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">Semih Erdem Çamur</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">Zeynep Sude Keskin</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">Neslişah Sultan Bulut</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <span class="badge-new">YENİ İL</span> <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Erzurum</h6>
+                            <h5 class="card-title">Fatih Günek</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <span class="badge-new">YENİ İL</span> <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Erzurum</h6>
+                            <h5 class="card-title">Şeyda Nur Kuzeytemiz</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <span class="badge-new">YENİ İL</span> <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Gaziantep</h6>
+                            <h5 class="card-title">Mustafa Ağdemir</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <span class="badge-new">YENİ İL</span> <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Gaziantep</h6>
+                            <h5 class="card-title">Gülistan Yılmaz</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Sivas</h6>
+                            <h5 class="card-title">Mustafa Tamer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Sivas</h6>
+                            <h5 class="card-title">Meryem Sude Arslan</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Samsun</h6>
+                            <h5 class="card-title">Berk Caniklioğlu</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Samsun</h6>
+                            <h5 class="card-title">Zeynep Kablan</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Antalya</h6>
+                            <h5 class="card-title">Furkan Çetin</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Antalya</h6>
+                            <h5 class="card-title">Vildan Yatçı</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Konya</h6>
+                            <h5 class="card-title">Furkan Akyıldız</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg" alt="Öğrenci Lideri">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Konya</h6>
+                            <h5 class="card-title">Ezgi Küçükkeleş</h5>
+                        </div>
+                    </div>
+                </div>
+            </div> <div id="team-2024" class="row d-none">
+                
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">A. Eymen Asru</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">M. Akif Sarıkaya</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">Şevval Şahin</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">İstanbul</h6>
+                            <h5 class="card-title">Lütuf Canan Budak</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Konya</h6>
+                            <h5 class="card-title">Furkan Bakırtaş</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Konya</h6>
+                            <h5 class="card-title">Enise Ebrar Uygun</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Antalya</h6>
+                            <h5 class="card-title">Furkan Çetin</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Antalya</h6>
+                            <h5 class="card-title">Merve Özokudan</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Samsun</h6>
+                            <h5 class="card-title">Berk Caniklioğlu</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Samsun</h6>
+                            <h5 class="card-title">Ayşegül Akıncı</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/man.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Sivas</h6>
+                            <h5 class="card-title">M. Mustafa Pürlü</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/woman.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">Sivas</h6>
+                            <h5 class="card-title">Meryem Aslan</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div> </div>
+    </section>
+    <!-- End of Team Sectoin -->
+
+    <!-- Video Section
+    <section class="has-bg-img py-lg">
+        <div class="container text-center">
+            <button type="button" class="btn btn-outline-primary play-control" data-toggle="modal" data-target="#exampleModalCenter">
+              <i class="ti-control-play" ></i>
+            </button>
+            <h6 class="section-title mt-4">Tanıtım videosunu izlemek için tıklayın</h6>
+
+        </div>
+    </section>
+    <!-- End of Video Section -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1uHFP8YznBo?si=FXxGdrY-YxWdYFoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal -->
+
+    <!-- Blog Section     
+    <section id="blog">
+        <div class="container">
+            <h6 class="section-title mb-6 text-center">MARS Blog</h6>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card blog-post my-4 my-sm-5 my-md-0">
+                        <img src="assets/imgs/blog-1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="card-body">
+                            <div class="details mb-3">
+                                <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i> 123</a>
+                            </div>
+                            <h5 class="card-title">Possimus aliquam veniam</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
+                            <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card blog-post my-4 my-sm-5 my-md-0">
+                        <img src="assets/imgs/blog-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="card-body">
+                            <div class="details mb-3">
+                                <a href="javascript:void(0)"><i class="ti-comments"></i> 434</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i> 987</a>
+                            </div>
+                            <h5 class="card-title">Repudiandae laudantium</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
+                            <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card blog-post my-4 my-sm-5 my-md-0">
+                        <img src="assets/imgs/blog-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="card-body">
+                            <div class="details mb-3">
+                                <a href="javascript:void(0)"><i class="ti-comments"></i> 164</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i> 425</a>
+                            </div>
+                            <h5 class="card-title">Laboriosam asperiores</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
+                            <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- End of Blog Section -->
+
+
+    <section class="has-bg-img py-0">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">MARS Projesi | ÖNDER Genç</h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="#" class="logo">
+                                <img src="assets/imgs/logo.png" alt="mars">
+                                <h6>MARS</h6>
+                            </a>
+                            <p> ÖNDER İmam Hatipliler Derneği tarafından hazırlanmış projemiz, imam hatip lisesi öğrencileri için planlanmış bir <em>insan odaklı sosyal-girişimcilik kuluçka merkezi</em> programıdır.</p> 
+                            <p class="mt-3">
+                                Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a class="d-inline text-primary" href="https://onder.org.tr/projeler/genclik-projeleri/mars-girisim">ÖNDER</a>
+                            </p>                   
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">İletişim</h6>
+                        </li>
+                        <li class="list-body">
+                            <p><i class="ti-location-pin"></i>Akşemsettin Mah. Şair Fuzuli Sk. No: 22 Fatih/İstanbul</p>
+                            <p><i class="ti-mobile"></i>0 (212) 521 19 58</p>
+                            <p><i class="ti-email"></i>onder@onder.org.tr</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/onderiho" class="link"><i class="ti-facebook"></i></a>
+                                <a href="https://x.com/ONDERihl" class="link"><i class="ti-twitter-alt"></i></a>
+                                <a href="https://www.youtube.com/user/onderimamhatip" class="link"><i class="ti-youtube"></i></a>
+                                <a href="https://www.instagram.com/marsgirisim/" class="link"><i class="ti-instagram"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Studio js -->
+    <script src="assets/js/mars.js"></script>
+
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="assets/js/mars.js"></script>
+
+	<!-- Team Selection -->
+    <script>
+    function toggleTeamYear() {
+        var year = document.getElementById("yearSelect").value;
+        var team2025 = document.getElementById("team-2025");
+        var team2024 = document.getElementById("team-2024");
+
+        if (year === "2025") {
+            team2025.classList.remove("d-none"); // 2025'i göster
+            team2024.classList.add("d-none");    // 2024'ü gizle
+        } else {
+            team2025.classList.add("d-none");    // 2025'i gizle
+            team2024.classList.remove("d-none"); // 2024'ü göster
+        }
+    }
+   </script>
+
+    <!-- Popup içeriği 
+    <div id="application-popup" class="popup-container">
+        <div class="popup-content">
+            <span id="close-popup" class="popup-close">&times;</span>
+            <a href="https://www.instagram.com/marsgirisim/" target="_blank">
+                <img src="assets/imgs/popup.jpg" alt="Başvurular Başladı">
+            </a>
+        </div>
+    </div>
+   
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const popup = document.getElementById('application-popup');
+            const closeBtn = document.getElementById('close-popup');
+
+            popup.style.display = 'flex';
+
+            function closePopup() {
+                popup.style.display = 'none';
+            }
+            closeBtn.addEventListener('click', closePopup);
+            popup.addEventListener('click', function(event) {
+                if (event.target === popup) {
+                    closePopup();
+                }
+            });
+        });
+    </script> -->
+    
+</body>
+</html>
