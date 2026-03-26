@@ -87,3 +87,51 @@ _Bu başlık İstanbul Çalıştayına dahildir_
 ??? travel "Sivas"
 
     Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Erzurum"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Antalya"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Samsun"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Sivas"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Gaziantep"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Antalya"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Samsun"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Sivas"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Erzurum"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Antalya"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Samsun"
+
+    Yerel medya ofislerine gezi düzenlenecektir.
+
+??? travel "Sivas"
+
+    Yerel medya ofislerine gezi düzenlenecektir.

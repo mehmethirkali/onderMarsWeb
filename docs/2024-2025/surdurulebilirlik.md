@@ -84,3 +84,51 @@ description: Başlık 5
 ??? travel "Sivas"
 
     Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Erzurum"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Antalya"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Samsun"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Sivas"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Gaziantep"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Antalya"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Samsun"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Sivas"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Erzurum"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Antalya"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Samsun"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.
+
+??? travel "Sivas"
+
+    Bu başlık altında kuluçka haftasının aksine bütüncül bir yaklaşım geliştirebilmek ve kavramların disiplinlerarası terimsel farklılıkları üzerine içgörü oluşturabilmek için il belediyelerinin geri dönüşüm tesislerine geziler düzenlenecek, yetkililerden yerinde bilgi aktarımı gerçekleştirilecektir.

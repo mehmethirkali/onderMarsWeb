@@ -92,3 +92,54 @@ _Bu başlık İstanbul Çalıştayına dahildir_
 
     Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
 
+
+??? travel "Erzurum"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Antalya"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Samsun"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Sivas"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+
+??? travel "Gaziantep"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Antalya"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Samsun"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Sivas"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+
+??? travel "Erzurum"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Antalya"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Samsun"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+
+??? travel "Sivas"
+
+    Ekonomi ve ticaret kriterlerinin daha iyi anlaşılabilmesini sağlamak adına örnek bir vaka çalışması düzenlenecektir. Bu vaka çalışmasında öğrenciler iki hafta boyunca öğrendikleri teorik bilgileri uygulama ve anlamlandırma şansı elde edecektir. Bu içerik tüm illerde ortak olarak düzenlenecektir.
+

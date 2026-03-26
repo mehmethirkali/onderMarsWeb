@@ -72,4 +72,8 @@ _Bu başlık İstanbul Çalıştayına dahildir_
 ??? travel "Samsun"
 
 ??? travel "Sivas"
+
+??? travel "Erzurum"
+
+??? travel "Gaziantep"
 -->

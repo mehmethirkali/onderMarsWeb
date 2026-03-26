@@ -120,111 +120,22 @@ description: başlık 2
 
 ---
 
-**Konuk:** Numan Noyan
-
-<div class="grid cards" markdown>
-
-- Numan Noyan, İstanbul Üniversitesi'nde sanat yönetmeni olarak görev yapmaktadır. Sanat tarihi, sanat yönetmenliği, mozaik, fotoğraf ve baskıresim alanlarında çalışmalar yürütmektedir.
-
-- **Alan:** Sanat Tarihi, Sanat Yönetmenliği, Mozaik, Fotoğraf, Baskıresim
-
-
-</div>
-
----
-
-**Konuk:** Erol Dönmez
-
-<div class="grid cards" markdown>
-
-- Erol Dönmez, hat sanatı alanında uzmanlaşmış bir sanatkârdır. Geleneksel Türk hat sanatının yaşatılması ve aktarılması konusunda çalışmalar yürütmektedir.
-
-- **Alan:** Hat
-
-</div>
-
----
-
-**Konuk:** Sadettin Ökten
-
-<div class="grid cards" markdown>
-
-- Sadettin Ökten, kültürel miras ve geleneksel sanatlar üzerine çalışmalar yapan bir yazardır. Eserleri ve konuşmalarıyla Türk-İslam kültür mirasının genç nesillere aktarılmasına katkı sağlamaktadır.
-
-- **Alan:** Yazarlık, Kültürel Miras
-
-</div>
-
----
-
-**Konuk:** Dilek Şar
-
-<div class="grid cards" markdown>
-
-- Dilek Şar, tezhip sanatı alanında ustalaşmış ve bu geleneksel sanatı hem icra eden hem de öğreten bir sanatkârdır. İstanbul'daki atölye çalışması için de kendisiyle iletişime geçilebilir.
-
-- **Alan:** Tezhip
-
-
-</div>
-
----
-
-**Konuk:** Fatma Çiçek Derman
-
-<div class="grid cards" markdown>
-
-- Fatma Çiçek Derman, tezhip sanatının önde gelen isimlerinden biridir. Geleneksel tezhip motif ve tekniklerini akademik ve sanatsal düzeyde araştıran ve aktaran bir sanatkârdır.
-
-- **Alan:** Tezhip
-
-</div>
-
----
-
 **Konuk:** İzzet Elitaş
 
-<div class="grid cards" markdown>
-
-- İzzet Elitaş, hat sanatı alanında çalışmalar yürüten ve bu geleneği yaşatan bir sanatkârdır.
-
-- **Alan:** Hat
-
-</div>
-
----
-
-**Konuk:** Ahmet Hikmet Barutçugil
+**İzzet Elitaş Kimdir?**
 
 <div class="grid cards" markdown>
 
-- Ahmet Hikmet Barutçugil, ebru sanatının önde gelen temsilcilerinden biridir. Geleneksel ebru tekniklerini hem sanatsal hem de eğitimsel boyutuyla aktarmaktadır.
+- 1982 yıllarında küçük yaşlarda Topkapı Sarayı hocalarından tezhip dersleri aldı. 1981 yılında Nuruosmaniye Kuran Kursu'nda hafızlığını tamamladı. Mısır'daki El-Ezher Üniversitesi İslam Hukuku bölümünden 1993 yılında mezun oldu. 1994-1998 yılları arasında öğretmenlik, profesyonel Arapça turist rehberliği ve idarecilik yaptı. 2007 yılında Hüseyin Kutlu Hoca'dan Sülüs-Nesih; Ali Rıza Özcan Hoca'dan Ta'lik, Divani ve Celi divani yazılarından İcazetlerini aldı. Aynı dönemlerde Neyzen Sadreddin Özçimi'den ebru dersleri aldı.
 
-- **Alan:** Ebru
+    2018 yılında Fatih Sultan Mehmet Üniversitesi Güzel Sanatlar Fakültesi Geleneksel Sanatlar Hat Bölümünde yüksek lisansa başladı. "Mısır'da Osmanlı Hattatlığı" başlığı altında Mısır-Kahire'deki mimari yapıları, müze ve kütüphanelerindeki Osmanlı hattatlarının eserlerini inceleyerek 2019 yılında Türk hattatlarının ve ekseriyetle Hattat Kamil Akdik'e ait hatların bulunduğu "Kahire'de Menyel Kasrı Mescid Hatları" başlıklı teziyle yüksek lisansını tamamladı. Başta Türkiye, Bosna-Hersek, Sudan, Almanya olmak üzere yurt içi ve yurt dışında uluslararası kişisel ve karma sergilere katıldı ve o ülkelerde atölye çalışmaları yaptı. MEB'de öğretmenlik yapmakta olan sanatçının eserleri yurt içi ve yurt dışında sanatseverlerin koleksiyonlarında yerini almaktadır. Evli ve iki çocuk babasıdır.
 
-</div>
+    **Alan:** Hat
 
----
-
-**Konuk:** İsmail Yiğit
-
-<div class="grid cards" markdown>
-
-- İsmail Yiğit, çini sanatı alanında uzmanlaşmış bir sanatkârdır. Geleneksel çini üretim tekniklerini ve tarihsel arka planını aktaran çalışmalar yapmaktadır.
-
-- **Alan:** Çini
-
-</div>
-
----
-
-**Konuk:** Ayşe Raziye Özalp
-
-<div class="grid cards" markdown>
-
-- Ayşe Raziye Özalp, minyatür sanatı alanında çalışmalar yürüten bir sanatkârdır. Geleneksel Türk-İslam minyatür geleneğini yaşatma ve aktarma konusunda önemli katkılar sunmaktadır.
-
-- **Alan:** Minyatür
+- <figure markdown="span">
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="img/izzet-elitas.jpeg" data-desc-position="bottom"><img alt="İzzet Elitaş" src="img/izzet-elitas.jpeg" style="width:100%;max-width:560px;height:auto;"></a>
+        <figcaption>İzzet Elitaş</figcaption>
+    </figure>
 
 </div>
 
@@ -254,5 +165,14 @@ description: başlık 2
     Öğrencilere geleneksel sanatlarımızı tanıma imkânı sunarken el becerilerini ve estetik anlayışlarını geliştirmelerine yardımcı olur.
 
 ??? travel "Konya"
+
+    Öğrencilere geleneksel sanatlarımızı tanıma imkânı sunarken el becerilerini ve estetik anlayışlarını geliştirmelerine yardımcı olur.
+??? travel "Erzurum"
+
+    Öğrencilere geleneksel sanatlarımızı tanıma imkânı sunarken el becerilerini ve estetik anlayışlarını geliştirmelerine yardımcı olur.
+??? travel "Gaziantep"
+
+    Öğrencilere geleneksel sanatlarımızı tanıma imkânı sunarken el becerilerini ve estetik anlayışlarını geliştirmelerine yardımcı olur.
+??? travel "Erzurum"
 
     Öğrencilere geleneksel sanatlarımızı tanıma imkânı sunarken el becerilerini ve estetik anlayışlarını geliştirmelerine yardımcı olur.
